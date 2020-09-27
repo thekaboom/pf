@@ -1,4 +1,3 @@
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -28,7 +27,7 @@ html {
   position: absolute;
   left: 0;
   top: 0;
-  width: 50%;
+  width: 100%;
   height: 100%;
 	align-content: center;
   overflow: auto;
@@ -109,15 +108,15 @@ html {
   width: 100px;
   height: 100px;
   background: transparent url("https://i.ibb.co/ggKzbTL/aboutico.png") no-repeat center center;
-  background-size: 80% 100%;
+  background-size: 100% 100%;
 }
 .section-b.is-watermellon:after {
   background: transparent url("https://i.ibb.co/dKzpbHF/socialico.png") no-repeat center center;
-  background-size: 80% 100%;
+  background-size: 100% 100%;
 }
 .section-b.is-fish:after {
   background: transparent url("https://i.ibb.co/s62TtGj/folioico.png") no-repeat center center;
-  background-size: 80% 100%;
+  background-size: 100% 100%;
 }
 .section-b.is-donut:after {
   background: transparent url("https://s.cdpn.io/6859/donut.png") no-repeat center center;
@@ -147,20 +146,9 @@ html {
   background: transparent url("https://s.cdpn.io/6859/china.png") no-repeat center center;
   background-size: 100% 100%;
 }
-@media all and (max-width:930px) {
-  .suggest-l {
-    margin-left: -150px;
-    top: 0;
-    margin-top: 0;
-  }
-  .iphone-l {
-    margin: 0 auto;
-    margin-top: 250px;
-  }
-}
 div.sticky {
   position: -webkit-sticky;
-	width: 200px;
+	width: 100%;
   position: sticky;
   top: 0;
   background-color: yellow;
