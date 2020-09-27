@@ -148,7 +148,7 @@ html {
 }
 div.sticky {
   position: -webkit-sticky;
-	width: 100%;
+	width: 1000%;
   position: sticky;
   top: 0;
   background-color: yellow;
