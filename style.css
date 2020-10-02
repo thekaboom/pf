@@ -4,6 +4,13 @@
   margin: 0;
 }
 
+.all {
+  display: block;
+  margin: auto;
+  min-height: 500px;
+  min-width: 500px;
+}
+
 .horcolors {
   position: absolute;
   top: -110px;
@@ -63,7 +70,7 @@ footer {
   min-width: 90%;
   max-width: 90%;
   margin: 0 auto;
-  top: 145px;
+  top: 175px;
 }
 
 .tabs {
@@ -145,6 +152,7 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 5px;
+  display: block;
 }
 
 .colors {
