@@ -2,8 +2,35 @@
 <html lang="en" class="bg-color">
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Puffbat</title>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'><link rel="stylesheet" href="./style.css">
+  <title>Puffbat - A Portfolio Page</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+function getDocHeight(doc) {
+    doc = doc || document;
+    // stackoverflow.com/questions/1145850/
+    var body = doc.body, html = doc.documentElement;
+    var height = Math.max( body.scrollHeight, body.offsetHeight, 
+        html.clientHeight, html.scrollHeight, html.offsetHeight );
+    return height;
+}
+
+function setIframeHeight(id) {
+    var ifrm = document.getElementById(id);
+    var doc = ifrm.contentDocument? ifrm.contentDocument: 
+        ifrm.contentWindow.document;
+    ifrm.style.visibility = 'hidden';
+    ifrm.style.height = "10px"; // reset to minimal height ...
+    // IE opt. for bing/msn needs a bit added or scrollbar appears
+    ifrm.style.height = getDocHeight( doc ) + 4 + "px";
+    ifrm.style.visibility = 'visible';
+}
+
+document.getElementById('ifrm').onload = function() { // Adjust the Id accordingly
+    setIframeHeight(this.id);
+}
+</script><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
@@ -12,14 +39,14 @@
 	
 	<div class="topbanner">
 		
-		<img src="https://raw.githubusercontent.com/thekaboom/pf/master/2/topanim.gif"  alt="topbanner" height="150px" border="0"></div>
+		<img src="https://raw.githubusercontent.com/thekaboom/pf/master/2/topanim.gif"  alt="topbanner" height="110px" border="0"></div>
 	
 	
 	<ul class="tabs">
-		<li class="active"><img src="https://i.ibb.co/DVQM1Lj/folio.png" height="32px"></li>
+		<li class="active"><img src="https://i.ibb.co/mNRWbK8/settings.png" height="32px"></li>
 		<li><img src="https://i.ibb.co/xgfy2n1/about.png" height="32px"></li>
 		<li><img src="https://i.ibb.co/fXchP8p/shop.png" height="32px"></li>
-		<li><img src="https://i.ibb.co/mNRWbK8/settings.png" height="32px"></li>
+		<li><img src="https://i.ibb.co/DVQM1Lj/folio.png" height="32px"></li>
 	<li><img src="https://i.ibb.co/5kPkw0K/social.png" height="32px"></li>
 	</ul></nav>
 
@@ -86,7 +113,8 @@
 		</li>
 			<li>
 			<div class="content__wrapper">
-						<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/CurrentProjectsTop.jpg"><img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/LauncPortfolioButton.jpg">
+					
+				<iframe src="https://puffbat.com" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="yes" style="border:none; overflow:show; width: 95%; height: 400px;"></iframe>
 				
 				<ul class="colors">
 					<li data-color="#2ecc71"></li>
