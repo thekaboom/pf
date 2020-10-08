@@ -75,4 +75,4 @@ $(document).ready(function(){
 	});
 });
 
-document.getElementById('myElement').style.webkitTransform = 'scale(1)';
+document.getElementById('folio').style.webkitTransform = 'scale(1)';
