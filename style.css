@@ -160,7 +160,7 @@ footer {
   position: relative;
   align-self: center;
   left: -10px;
-  top: 120px;
+  top: 0px;
 }
 .colors > li {
   list-style: none;
