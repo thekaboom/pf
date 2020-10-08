@@ -2,11 +2,10 @@
 <html lang="en" class="bg-color">
 <head>
   <meta charset="UTF-8">
-  <title>Puffbat - A Portfolio Page</title>
+  <title>CodePen - Puffbat</title>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
 
-	
 <script type="text/javascript">
 function getDocHeight(doc) {
     doc = doc || document;
@@ -21,7 +20,7 @@ function setIframeHeight(id) {
     var ifrm = document.getElementById(id);
     var doc = ifrm.contentDocument? ifrm.contentDocument: 
         ifrm.contentWindow.document;
-    ifrm.style.visibility = 'visible';
+    ifrm.style.visibility = 'hidden';
     ifrm.style.height = "10px"; // reset to minimal height ...
     // IE opt. for bing/msn needs a bit added or scrollbar appears
     ifrm.style.height = getDocHeight( doc ) + 4 + "px";
@@ -31,9 +30,7 @@ function setIframeHeight(id) {
 document.getElementById('ifrm').onload = function() { // Adjust the Id accordingly
     setIframeHeight(this.id);
 }
-</script>
-	
-<link rel="stylesheet" href="./style.css">
+</script><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
