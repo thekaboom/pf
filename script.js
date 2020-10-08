@@ -74,3 +74,5 @@ $(document).ready(function(){
 		$(".text-color").css("color", newColor);
 	});
 });
+
+document.getElementById('myElement').style.webkitTransform = 'scale(1)';
