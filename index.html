@@ -1,47 +1,8 @@
-<!DOCTYPE html>
-<html lang="en" class="bg-color">
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Puffbat</title>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script type="text/javascript">
-function getDocHeight(doc) {
-    doc = doc || document;
-    // stackoverflow.com/questions/1145850/
-    var body = doc.body, html = doc.documentElement;
-    var height = Math.max( body.scrollHeight, body.offsetHeight, 
-        html.clientHeight, html.scrollHeight, html.offsetHeight );
-    return height;
-}
-
-function setIframeHeight(id) {
-    var ifrm = document.getElementById(id);
-    var doc = ifrm.contentDocument? ifrm.contentDocument: 
-        ifrm.contentWindow.document;
-    ifrm.style.visibility = 'hidden';
-    ifrm.style.height = "10px"; // reset to minimal height ...
-    // IE opt. for bing/msn needs a bit added or scrollbar appears
-    ifrm.style.height = getDocHeight( doc ) + 4 + "px";
-    ifrm.style.visibility = 'visible';
-}
-
-document.getElementById('ifrm').onload = function() { // Adjust the Id accordingly
-    setIframeHeight(this.id);
-}
-</script>
-	
-<link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
 <nav class="bg-color">
 	
 	<div class="topbanner">
 		
-		<img src="https://raw.githubusercontent.com/thekaboom/pf/master/2/topanim.gif"  alt="topbanner" height="110px" border="0"></div>
+		<img src="https://raw.githubusercontent.com/thekaboom/pf/master/2/topanim.gif"  alt="topbanner" height="140px" ></div>
 	
 	
 	<ul class="tabs">
@@ -89,7 +50,7 @@ document.getElementById('ifrm').onload = function() { // Adjust the Id according
 </table>
 						<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/tetrispagebreak.jpg">
 				<ul class="colors">
-					<li data-color="#2ecc71"></li>
+					<li data-color="#00c8c6"></li>
 					<li data-color="#D64A4B"></li>
 					<li data-color="#8e44ad"></li>
 					<li data-color="#46a1de"></li>
@@ -148,10 +109,13 @@ document.getElementById('ifrm').onload = function() { // Adjust the Id according
 		</li>
 			<li>
 			<div class="content__wrapper">
-					<br>
-				<iframe src="https://puffbat.com" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="yes" style="border:none; overflow:show; width: 95%; height: 400px;"></iframe>
+				<h1> Portfolio </h1>
 				
-				
+				<object data="https://www.puffbat.com" width="100%" height="500">
+    <embed src="https://www.puffbat.com" width="100%" height="500"> </embed>
+    Error: Embedded data could not be displayed.
+</object>
+			
 	
 			</div>
 				
@@ -193,8 +157,3 @@ document.getElementById('ifrm').onload = function() { // Adjust the Id according
 	</ul>
 				
 </section>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
-
-</body>
-</html>
