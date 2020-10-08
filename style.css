@@ -10,6 +10,11 @@
   left: 350px;
 }
 
+.folio{
+  position: relative;
+  z-index:999;
+}
+
 .topbanner {
   display: flex;
   justify-content: center;
