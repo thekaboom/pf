@@ -74,5 +74,3 @@ $(document).ready(function(){
 		$(".text-color").css("color", newColor);
 	});
 });
-
-document.getElementById('folio').style.webkitTransform = 'scale(1)';
