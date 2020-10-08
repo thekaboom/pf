@@ -66,6 +66,14 @@ nav {
   transition-duration: .5s;
 }
 
+foliowraper {
+  position: relative;
+    padding-bottom: 10px;
+    padding-top: 2px;
+    height: 0;
+  overflow: show;
+}
+
 footer {
   padding: 40px 0;
   text-align: center;
