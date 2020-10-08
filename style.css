@@ -41,6 +41,7 @@ body {
 
 }
 @media only screen and (max-width: 600px) {
+	
   body {
     font-family: 'Open Sans', sans-serif;
   color: #50555a;
@@ -49,12 +50,14 @@ body {
 			transform: scale(1); /* Equal to scaleX(0.7) scaleY(0.7) */
   }
 	
-	.tabs{
-		img {
-	height:30px;
 }
+
+@media only screen and (max-width: 600px) {
+	.tabs {
+		img {
+			height: 32px;
+		}
 	}
-	
 }
 nav {
   z-index: 9;
@@ -99,7 +102,6 @@ footer {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
 }
-
 .tabs > li {
   transition-duration: .25s;
   display: table-cell;
