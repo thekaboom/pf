@@ -97,12 +97,23 @@ footer {
   color: white;
 }
 
+
 .wrapper {
-  position: relative;
+  position: absolute;
+  min-width: 90%;
+  max-width: 90%;
+  margin: 0 auto;
+  top: 190px;
+}
+
+@media only screen and (max-width: 600px)  {
+	.wrapper {
+  position: absolute;
   min-width: 90%;
   max-width: 90%;
   margin: 0 auto;
   top: 180px;
+}
 }
 
 .tabs {
