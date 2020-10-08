@@ -48,6 +48,13 @@ body {
   padding-left: 20px;
 			transform: scale(1); /* Equal to scaleX(0.7) scaleY(0.7) */
   }
+	
+	.tabs{
+		img {
+	height:30px;
+}
+	}
+	
 }
 nav {
   z-index: 9;
@@ -92,6 +99,7 @@ footer {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
 }
+
 .tabs > li {
   transition-duration: .25s;
   display: table-cell;
