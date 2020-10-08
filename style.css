@@ -31,7 +31,7 @@ body {
   /* Equal to scaleX(0.7) scaleY(0.7) */
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   body {
     font-family: 'Open Sans', sans-serif;
     color: #50555a;
@@ -40,7 +40,7 @@ body {
     /* Equal to scaleX(0.7) scaleY(0.7) */
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .tabs img {
     height: 32px;
   }
