@@ -5,6 +5,7 @@
 }
 
 
+
 .horcolors {
   position: absolute;
   top: -110px;
@@ -68,7 +69,7 @@ footer {
   min-width: 90%;
   max-width: 90%;
   margin: 0 auto;
-  top: 135px;
+  top: 180px;
 }
 
 .tabs {
