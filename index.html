@@ -38,7 +38,7 @@ document.getElementById('ifrm').onload = function() { // Adjust the Id according
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<nav class="bg-color">
+<div class="scaler"><nav class="bg-color">
 	
 	<div class="topbanner">
 		
@@ -150,8 +150,11 @@ document.getElementById('ifrm').onload = function() { // Adjust the Id according
 			<li>
 			<div class="content__wrapper">
 				<h1> Portfolio </h1>
-				<iframe src="http://www.puffbat.com" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="yes" style="border:none; overflow:hidden;  width="100%" height="500""></iframe>
 				
+				<object data="https://www.puffbat.com" width="100%" height="500">
+    <embed src="https://www.puffbat.com" width="100%" height="500"> </embed>
+    Error: Embedded data could not be displayed.
+</object>
 			
 	
 			</div>
@@ -193,7 +196,7 @@ document.getElementById('ifrm').onload = function() { // Adjust the Id according
 		
 	</ul>
 				
-</section>
+</section></div>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
 
