@@ -176,12 +176,15 @@ footer {
 }
 
 .tabs > li.active {
-  background: #fcff00;
+color: #fcff00;
+	
+
+}
+.tab__content > li.active {
 color: #ff0092;
 	
 
 }
-
 .tabs > li.active:before {
   transition-duration: .5s;
   background-color: #fcff00;
