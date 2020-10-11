@@ -19,36 +19,33 @@
   width: 100%;
 }
 
-	h1 {
-		color: #ffff00;
-		text-transform: uppercase;
+h1 {
+  color: #ffff00;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding-top: -11px;
+  padding-bottom: 10px;
+}
 
-		font-size: 1em;
-		padding-top: -11px;
-		padding-bottom: 10px;
-	}
-	
-	@media only screen and (max-width: 600px) {
-
-		h1 {
-		color: #ffff00;
-		text-transform: uppercase;
-font-weight: bold;
-		font-size: .4em;
-		padding-top: -11px;
-		padding-bottom: 10px;
-		}
-	}
-
+@media only screen and (max-width: 600px) {
+  h1 {
+    color: #ffff00;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .4em;
+    padding-top: -11px;
+    padding-bottom: 10px;
+  }
+}
 .horcolors {
   position: absolute;
   top: -110px;
   left: 350px;
 }
 
-.folio{
+.folio {
   position: relative;
-  z-index:999;
+  z-index: 999;
 }
 
 .topbanner {
@@ -68,18 +65,21 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #50555a;
   padding-left: 20px;
-  transform: scale(0.7);}
+  transform: scale(0.7);
+}
 
 @media only screen and (max-width: 800px) {
   body {
     font-family: 'Open Sans', sans-serif;
     color: #50555a;
     padding-left: 20px;
-    transform: scale(1);}
+    transform: scale(1);
+  }
 }
 @media only screen and (max-width: 800px) {
   .tabs img {
-    height: 32px;}
+    height: 32px;
+  }
 }
 nav {
   z-index: 9;
@@ -104,9 +104,9 @@ nav {
 
 foliowraper {
   position: relative;
-    padding-bottom: 10px;
-    padding-top: 2px;
-    height: 0;
+  padding-bottom: 10px;
+  padding-top: 2px;
+  height: 0;
   overflow: show;
 }
 
@@ -117,7 +117,6 @@ footer {
   color: white;
 }
 
-
 .wrapper {
   position: absolute;
   min-width: 90%;
@@ -126,16 +125,15 @@ footer {
   top: 190px;
 }
 
-@media only screen and (max-width: 600px)  {
-	.wrapper {
-  position: absolute;
-  min-width: 90%;
-  max-width: 90%;
-  margin: 0 auto;
-  top: 180px;
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    position: absolute;
+    min-width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+    top: 180px;
+  }
 }
-}
-
 .tabs {
   display: table;
   table-layout: fixed;
@@ -152,7 +150,6 @@ footer {
   padding: 3px;
   position: relative;
   cursor: pointer;
-  
 }
 
 .tabs > li:before {
@@ -176,9 +173,10 @@ footer {
 }
 
 .tabs > li.active {
-color: #ff0092;
-	
-
+  color: #fcff00;
+}
+.tabs > li.active h1 {
+  color: #ff0092;
 }
 
 .tabs > li.active:before {
@@ -287,4 +285,3 @@ table.projects {
   margin-left: auto;
   margin-right: auto;
 }
-
