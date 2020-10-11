@@ -177,6 +177,10 @@ footer {
 
 .tabs > li.active {
   color: #fcff00;
+	
+	h1{
+		color: #ff0092;
+	}
 }
 
 .tabs > li.active:before {
@@ -285,3 +289,4 @@ table.projects {
   margin-left: auto;
   margin-right: auto;
 }
+
