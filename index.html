@@ -2,53 +2,68 @@
 <html lang="en" class="bg-color">
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Puffbat</title>
+ 
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	
+<meta name="viewport" content="width=200, initial-scale=1.0">
+	
+	<!-- Primary Meta Tags -->
+<title>Puffbat - A Portfolio Page for Jose Placeres</title>
+<meta name="title" content="Puffbat - A Portfolio Page for Jose Placeres">
+<meta name="description" content="Through the years I’ve had the amazing opportunity of creating and learning from a wide range of project From animated promos, to printed marketing  to background visuals for performances. In this area I have compiled my favorite projects through the years. As well as showcasing current work. ">
 
-<meta name="viewport" content="width=100px, initial-scale=1.0">
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://metatags.io/">
+<meta property="og:title" content="Puffbat - A Portfolio Page for Jose Placeres">
+<meta property="og:description" content="Through the years I’ve had the amazing opportunity of creating and learning from a wide range of project From animated promos, to printed marketing  to background visuals for performances. In this area I have compiled my favorite projects through the years. As well as showcasing current work. ">
+<meta property="og:image" content="https://raw.githubusercontent.com/thekaboom/pf/master/images/metaimage.png">
 
-<script type="text/javascript">
-function getDocHeight(doc) {
-    doc = doc || document;
-    // stackoverflow.com/questions/1145850/
-    var body = doc.body, html = doc.documentElement;
-    var height = Math.max( body.scrollHeight, body.offsetHeight, 
-        html.clientHeight, html.scrollHeight, html.offsetHeight );
-    return height;
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="Puffbat - A Portfolio Page for Jose Placeres">
+<meta property="twitter:description" content="Through the years I’ve had the amazing opportunity of creating and learning from a wide range of project From animated promos, to printed marketing  to background visuals for performances. In this area I have compiled my favorite projects through the years. As well as showcasing current work. ">
+<meta property="twitter:image" content="https://raw.githubusercontent.com/thekaboom/pf/master/images/metaimage.png">
+
+<link rel="stylesheet" href="./style.css">
+
+	<style>
+.iframe-container{
+margin: 0 auto;
+max-width:100%;
+width:100%;
+height:300px;
 }
-
-function setIframeHeight(id) {
-    var ifrm = document.getElementById(id);
-    var doc = ifrm.contentDocument? ifrm.contentDocument: 
-        ifrm.contentWindow.document;
-    ifrm.style.visibility = 'hidden';
-    ifrm.style.height = "10px"; // reset to minimal height ...
-    // IE opt. for bing/msn needs a bit added or scrollbar appears
-    ifrm.style.height = getDocHeight( doc ) + 4 + "px";
-    ifrm.style.visibility = 'visible';
+@media only screen and (max-width: 992px) {
+	.iframe-container{
+		width: 80%;
+		height:300px;
+	}
 }
-
-document.getElementById('ifrm').onload = function() { // Adjust the Id accordingly
-    setIframeHeight(this.id);
+@media only screen and (max-width: 600px) {
+   .iframe-container{
+		width: 100%;
+		height:300px;
+	}
 }
-</script><link rel="stylesheet" href="./style.css">
-
+</style>
+	
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<nav class="bg-color">
+<div class="scaler"><nav class="bg-color">
 	
 	<div class="topbanner">
 		
-		<img src="https://raw.githubusercontent.com/thekaboom/pf/master/2/topanim.gif"  alt="topbanner" height="110px" border="0"></div>
+		<img src="https://raw.githubusercontent.com/thekaboom/pf/master/2/topanim.gif"  alt="topbanner" height="140px" ></div>
 	
 	
 	<ul class="tabs">
-		<li class="active"><img src="https://i.ibb.co/mNRWbK8/settings.png" height="32px"></li>
-		<li><img src="https://i.ibb.co/xgfy2n1/about.png" height="32px"></li>
-		<li><img src="https://i.ibb.co/fXchP8p/shop.png" height="32px"></li>
-		<li><img src="https://i.ibb.co/DVQM1Lj/folio.png" height="32px"></li>
-	<li><img src="https://i.ibb.co/5kPkw0K/social.png" height="32px"></li>
+		<li class="active"><img src="https://i.ibb.co/mNRWbK8/settings.png" height="52px"></li>
+		<li><img src="https://i.ibb.co/xgfy2n1/about.png" height="52px"></li>
+		<li><img src="https://i.ibb.co/fXchP8p/shop.png" height="52px"></li>
+		<li><img src="https://i.ibb.co/DVQM1Lj/folio.png" height="52px"></li>
+	<li><img src="https://i.ibb.co/5kPkw0K/social.png" height="52px"></li>
 	</ul></nav>
 
 <section class="wrapper">
@@ -58,8 +73,8 @@ document.getElementById('ifrm').onload = function() { // Adjust the Id according
 		<li class="active">
 			
 			<div class="content__wrapper">
-				
-	<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/HomeTab.gif">
+				<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/navtitles.jpg">
+	<br><img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/HomeTab.gif">
 				
 
 
@@ -88,7 +103,7 @@ document.getElementById('ifrm').onload = function() { // Adjust the Id according
 </table>
 						<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/tetrispagebreak.jpg">
 				<ul class="colors">
-					<li data-color="#2ecc71"></li>
+					<li data-color="#00c8c6"></li>
 					<li data-color="#D64A4B"></li>
 					<li data-color="#8e44ad"></li>
 					<li data-color="#46a1de"></li>
@@ -102,39 +117,60 @@ document.getElementById('ifrm').onload = function() { // Adjust the Id according
 		<li>
 			
 			<div class="content__wrapper">
-	<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/About.gif">	<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/KyloTab.jpg">
-				<table class="projects" width="80%" border="0" cellspacing="10px" cellpadding="0" >
+				<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/navtitles.jpg">
+	<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/aboutme1.jpg">		<table class="projects" width="80%" border="0" cellspacing="10px" cellpadding="0" >
   <tbody>
     <tr>
       <td></td>
       <td><a href="">
-		  <img src="https://raw.githubusercontent.com/thekaboom/pf/master/emailbtn.png" height="62" alt=""/></a>
+		  <img src="https://raw.githubusercontent.com/thekaboom/pf/master/emailbtn.png" height="22" alt=""/></a>
 																										</td>
       <td><a href="tel:+3059995673">
-      	<img src="https://raw.githubusercontent.com/thekaboom/pf/master/callbtn.png" height="62" alt=""/></a></td>
+      	<img src="https://raw.githubusercontent.com/thekaboom/pf/master/callbtn.png" height="22" alt=""/></a></td>
 
       <td><a href="https://www.messenger.com/t/jaypii">
-      	<img src="https://raw.githubusercontent.com/thekaboom/pf/master/messengerbtn.png" height="62" alt=""/></a></td>
+      	<img src="https://raw.githubusercontent.com/thekaboom/pf/master/messengerbtn.png" height="22" alt=""/></a></td>
 
 
       <td><a href="https://www.linkedin.com/in/placeres/">
       	<img src="https://raw.githubusercontent.com/thekaboom/pf/master/linkedin.png" height="62" alt=""/></a></td>
-     
+     <td><a href="tel:+3059995673">
+      	<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/storebtn.png" height="22" alt=""/></a></td>
     </tr>
     
   </tbody>
 </table>
-			</div>
-		</li>
-		<li>
-			<div class="content__wrapper">
+				
+				<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/resume.jpg">
 				
 				<table class="projects" width="80%" border="0" cellspacing="10px" cellpadding="0" >
   <tbody>
     <tr>
       <td></td>
+      <td><a href="">
+		  <img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/resumebtn.png" height="22" alt=""/></a>
+																										</td>
+      <td><a href="tel:+3059995673">
+      	<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/foliobtn.png" height="22" alt=""/></a></td>
+
       
-      <td><a href="https://www.puffbat.com"><img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/printstorebtn.jpg" height="82" alt=""/></a></td>
+    </tr>
+    
+  </tbody>
+</table> <img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/kylo1.jpg">
+				<a href="https://www.instagram.com/kyloundercover"><img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/kylo2.jpg"></a>
+			
+			</div>
+		</li>
+		<li>
+			<div class="content__wrapper">
+				<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/navtitles.jpg">
+				<table class="projects" width="80%" border="0" cellspacing="10px" cellpadding="0" >
+  <tbody>
+    <tr>
+      <td></td>
+      
+      <td><a href="https://puffbat.bigcartel.com"><img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/printstorebtn.jpg" height="82" alt=""/></a></td>
       <td><a href="https://www.gottagotchi.com"><img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/ggstorebtn.jpg" height="82" alt=""/></a></td>
 
     </tr>
@@ -146,17 +182,19 @@ document.getElementById('ifrm').onload = function() { // Adjust the Id according
 			</div>
 		</li>
 			<li>
-			<div class="content__wrapper">
-					<br>
-				<iframe src="https://puffbat.com" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="yes" style="border:none; overflow:show; width: 95%; height: 400px;"></iframe>
-				
+			<div class="content__wrapper"><img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/navtitles.jpg">
+				<div class="iframe-container">
+<iframe style="width:100%;height:100%;border:none" src="https://puffbat.com" scrolling="yes">This browser does not support Iframe</iframe>
+</div>
+
 				
 	
 			</div>
 				
 		</li>
 		<li>
-			<div class="content__wrapper"><img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/socialmedia.jpg">
+			<div class="content__wrapper">
+				<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/navtitles.jpg"><img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/socialmedia.jpg">
 							<table class="projects" width="80%" border="0" cellspacing="10px" cellpadding="0" >
   <tbody>
     <tr>
@@ -181,7 +219,7 @@ document.getElementById('ifrm').onload = function() { // Adjust the Id according
 </table>
 				
 			<!-- SnapWidget -->
-<iframe src="https://snapwidget.com/embed/831150" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:90%;"></iframe>
+<iframe src="https://snapwidget.com/embed/831150" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:90%;"></iframe>
 				
 						<img src="https://raw.githubusercontent.com/thekaboom/pf/master/images/tetrispagebreak.jpg">
 				
@@ -191,7 +229,7 @@ document.getElementById('ifrm').onload = function() { // Adjust the Id according
 		
 	</ul>
 				
-</section>
+</section></div>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
 
