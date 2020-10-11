@@ -176,10 +176,9 @@ footer {
 }
 
 .tabs > li.active {
-  color: #fcff00;
-
-.h1{
-color: #ff0092;}
+  background-color: #fcff00;
+color: #ff0092;
+	
 
 }
 
