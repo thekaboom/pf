@@ -177,10 +177,10 @@ footer {
 
 .tabs > li.active {
   color: #fcff00;
-	
-	h1{
-		color: #ff0092;
-	}
+
+.h1{
+color: #ff0092;}
+
 }
 
 .tabs > li.active:before {
